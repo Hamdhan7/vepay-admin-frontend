@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "vepay-admin-backend-production.up.railway.app/api/faqs"; // Replace with your backend URL
+const API_URL = "vepay-admin-backend-production.up.railway.app:8080/api/faqs"; // Replace with your backend URL
 
 export const getFaqs = async () => {
     const res = await axios.get(API_URL);
