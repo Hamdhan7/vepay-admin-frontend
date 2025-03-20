@@ -1,4 +1,4 @@
-const API_URL = "vepay-admin-backend-production.up.railway.app:8080/api/faqs"; // Adjust if deployed
+const API_URL = "vepay-admin-backend-production.up.railway.app/api/faqs"; // Adjust if deployed
 
 export const getFaqsByCategory = async (category) => {
     const response = await fetch(`${API_URL}/${encodeURIComponent(category)}`);
